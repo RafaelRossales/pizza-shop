@@ -19,7 +19,7 @@ export default function OrderTableRow() {
                             </DialogTrigger>
                             <OrderDetails/>
                         </Dialog>
-                    </TableCell>
+                    </TableCell> 
                 <TableCell className="font-mono text-xs font-medium">6.59559+5894489156</TableCell>
                 <TableCell className="text-muted-foreground"> há 15 minutos</TableCell>
                 <TableCell>
