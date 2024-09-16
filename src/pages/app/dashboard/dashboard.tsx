@@ -3,6 +3,8 @@ import MonthdRevenueCard from './cards/month-revenue-card'
 import MounthOrdersAmountCard from './cards/month-orders-amount-card'
 import DaysOrdersAmountCard from './cards/days-orders-amount-card'
 import MounthCanceledOrdersAmountCard from './cards/month-canceled-orders-amount-card'
+import RevenueChart from './charts/revenue-chart'
+import PopularProdutsCharts from './charts/popular-chart'
 
 export default function Dashboard() {
   return (
@@ -15,6 +17,10 @@ export default function Dashboard() {
          <MounthOrdersAmountCard/>
          <DaysOrdersAmountCard/>
          <MounthCanceledOrdersAmountCard/>
+        </div>
+        <div className='grid grid-cols-9 gap-4'>
+          <RevenueChart/>
+          <PopularProdutsCharts/>
         </div>
       </div>
     </>
