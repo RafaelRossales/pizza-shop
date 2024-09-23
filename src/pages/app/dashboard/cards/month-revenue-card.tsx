@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { DollarSign } from 'lucide-react'
-import React from 'react'
+
 
 export default function MonthdRevenueCard() {
   return (
